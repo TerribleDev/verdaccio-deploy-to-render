@@ -1,14 +1,13 @@
 services:
   # A Docker web service
   - type: web
-    name: verdaccio
-    env: docker
-    repo: https://github.com/TerribleDev/verdaccio/blob/master # optional
-    region: oregon # optional (defaults to oregon)
-    plan: free # optional (defaults to starter)
-    branch: 5.x # optional (uses repo default)
-    autoDeploy: false
-    disk:
-      name: verdaccio-data
-      mountPath: /verdaccio/storage
-      sizeGB: 1 # optional
+      name: verdaccio
+      env: docker
+      repo: https://github.com/TerribleDev/verdaccio/blob/master # optional
+      region: oregon # optional (defaults to oregon)
+      plan: free # optional (defaults to starter)
+      branch: 5.x # optional (uses repo default)
+      disk:
+        name: verdaccio-data
+        mountPath: /verdaccio/storage
+        sizeGB: 1 # optional
