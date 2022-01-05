@@ -1,6 +1,7 @@
 services:
   - type: web
     name: verdaccio
+    repo: https://github.com/verdaccio/verdaccio.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     branch: 5.x # optional (uses repo default)
