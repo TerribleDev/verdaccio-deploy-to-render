@@ -7,6 +7,7 @@ services:
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     branch: 5.x # optional (uses repo default)
+    autoDeploy: false
     disk:
       name: verdaccio-data
       mountPath: /verdaccio/storage
