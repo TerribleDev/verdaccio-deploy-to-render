@@ -1,6 +1,4 @@
 services:
-  # A Docker web service
-services:
   - type: web
     name: mysite
     repo: https://github.com/TerribleDev/verdaccio/blob/master # optional
