@@ -1,6 +1,6 @@
 ## What is this?
 
-This is a deploy to [render](https://render.com) button. Render is akin to heroku but has persistent storage, and generally much cheaper (includes a free tier).
+This is a deploy to [render](https://render.com) button for [Vedaccio](https://verdaccio.org/). Render is akin to heroku but has persistent storage, and generally much cheaper (includes a free tier).
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
@@ -8,6 +8,7 @@ This is a deploy to [render](https://render.com) button. Render is akin to herok
 
 * Fork this repo. **You must not use this repo to press the button** if you do any changes to this repo will sync to your infrastructure.
 * Press the button in your fork
+* You may want to build your own [config for Vedaccio](https://verdaccio.org/docs/configuration/#default-configuration), and copy it to `/verdaccio/conf/config.yaml`. 
 
 
 ## Security
