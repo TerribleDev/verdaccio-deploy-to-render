@@ -18,3 +18,9 @@ By default anyone can register themselves to Verdaccio. You'll want to compile y
 * https://verdaccio.org/docs/authentication
 * https://verdaccio.org/docs/docker#build-your-own-docker-image
 * https://verdaccio.org/docs/plugin-auth#list-community-authentication-plugins
+
+
+## Other Buttons?
+
+* I have a render button with github auth configured.
+  * https://github.com/TerribleDev/verdaccio-deploy-to-render-github
